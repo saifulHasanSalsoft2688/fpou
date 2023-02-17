@@ -7,6 +7,10 @@
     border-color: #000;
 }
 
+.pinkColor {
+    color: #F98AC2;
+}
+
 
 @media screen and (max-width: 1200px) and (min-width: 768px) {
     .stats, .stats:not(:last-child) {

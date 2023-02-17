@@ -17,7 +17,7 @@ const CustomPagination = () => {
             <div className="customPagination">
                 <div className="row align-items-baseline">
                     <div className="col-lg-6">
-                        <p className="paginationText">1-5 of 100</p>
+                        <p className="paginationText">Showing 05 Out Of 50 Entries</p>
                     </div>
                     <div className="col-lg-6">
                         <Pagination>

@@ -11,7 +11,7 @@ import SupplierComplete from "../Screens/registration/CompleteProfile";
 import AgencyComplete from "../Screens/registration/AgencyCompleteProfile";
 
 import { Dashboard } from "../Screens/Dashboard";
-import { MaleManagement } from "../Screens/MaleManagement";
+import { Event } from "../Screens/Event";
 import MaleDetails from "../Screens/MaleManagement/MaleDetails";
 import { FemaleManagement } from "../Screens/FemaleManagement";
 import FemaleDetails from "../Screens/FemaleManagement/FemaleDetails";
@@ -24,6 +24,7 @@ import { CommissionRate } from "../Screens/FemaleManagement/CommissionRate";
 import { CompanyProfile } from "../Screens/CompanyProfile";
 import { EditCompanyProfile } from "../Screens/CompanyProfile/editCompanyProfile";
 import { InviteCompany } from "../Screens/InviteCompany";
+import { CreateEvent } from "../Screens/Event/CreateEvent";
 
 // end 
 
@@ -64,7 +65,8 @@ export default function AdminRouter() {
         <Route path="/edit-company-profile" element={<EditCompanyProfile />} />
         <Route path="/invite-companies" element={<InviteCompany />} />
 
-        <Route path="/male-management" element={<MaleManagement />} />
+        <Route path="/event" element={<Event />} />
+        <Route path="/add-event" element={<CreateEvent />} />
         <Route path="/male-details/:id" element={<MaleDetails />} />
 
 

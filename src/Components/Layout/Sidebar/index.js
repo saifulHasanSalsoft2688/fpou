@@ -27,7 +27,7 @@ export const Sidebar = (props) => {
           </Link>
         </li>
         <li className="sidebar-li">
-          <Link className="sideLink" to="/male-management">
+          <Link className="sideLink" to="/event">
             <span className="sideIcon">
               <FontAwesomeIcon icon={faMars} />
             </span>

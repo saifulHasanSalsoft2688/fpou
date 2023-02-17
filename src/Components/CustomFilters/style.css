@@ -9,6 +9,15 @@
     position: relative;
 }
 
+.showIntries {
+    border-radius: 50px;
+    max-width: 100px;
+    text-align: center;
+    padding: 2px 0;
+    outline: none;
+    border: 1px solid #999;
+}
+
 .filterLabel {
     color: #333;
     margin-bottom: 0.2rem;

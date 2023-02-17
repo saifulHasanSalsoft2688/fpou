@@ -23,7 +23,7 @@
 }
 
 .customTable .thumbnail {
-    width: 40px;
+    width: 30px;
     aspect-ratio: 1/1;
     object-fit: cover;
     object-position: center;

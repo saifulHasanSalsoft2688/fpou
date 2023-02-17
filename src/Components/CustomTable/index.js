@@ -21,6 +21,7 @@ const CustomTable = (props) => {
         setFilterFrom={props?.setFilterFrom}
         filterTo={props?.filterTo}
         setFilterTo={props?.setFilterTo}
+        showInteries={props?.showInteries}
       />
       <div className="customTable">
         <table>
