@@ -1,0 +1,50 @@
+.stats {
+    margin-bottom: 1rem;
+    border-right: 2px solid #fff0;
+}
+
+.stats:not(:last-child) {
+    border-color: #000;
+}
+
+.pageTitle h3 {
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.gap-15 {
+    gap: 15px;
+}
+
+.imageBox img {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+}
+
+.imageBox {
+    border: 1px solid #d5cccc;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.eventInfo h4 {
+    font-size: 18px;
+    margin-bottom: 3px;
+}
+
+@media screen and (max-width: 1200px) and (min-width: 768px) {
+    .stats, .stats:not(:last-child) {
+        border-color: #fff0;
+    }
+
+    .stats:nth-child(odd) {
+        border-color: #000;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .stats, .stats:not(:last-child), .stats:nth-child(odd) {
+        border-color: #fff0;
+    }
+}

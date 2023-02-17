@@ -1,0 +1,9 @@
+.formControl {
+    position: relative;
+}
+
+.formControl button {
+    position: absolute;
+    top: 6px;
+    right: 4px;
+}

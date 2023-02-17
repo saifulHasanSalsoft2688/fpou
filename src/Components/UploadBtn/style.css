@@ -1,0 +1,23 @@
+/* .uploadBtn .inputIcon {
+    position: relative;
+    margin-top: 25px;
+}
+
+.uploadBtn .inputWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.uploadBtn .inputWrapper > div {
+    order: 2;
+    margin-top: 20px;
+}
+
+.uploadBtn .inputIcon svg {
+    background-color: #fff;
+    padding: 14px;
+    border: 1px solid #7070706e;
+    font-size: 22px;
+    border-radius: 10px;
+    color: #000;
+} */

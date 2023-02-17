@@ -1,0 +1,41 @@
+.backArrow {
+    color: #000;
+    text-decoration: none;
+}
+
+.profileData p {
+    margin-bottom: 5px;
+}
+
+.labelName {
+    color: var(--primaryColor);
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.inputData {
+    color: #999;
+}
+
+.solidBgBtn, .outlineBgBtn {
+    min-width: 170px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 50px;
+    color: #fff;
+}
+
+.outlineBgBtn {
+    border: 1px solid var(--primaryColor);
+    color: var(--primaryColor);
+    font-weight: 600;
+}
+
+.gradientBtn:hover {
+    color: #f7f5f5;
+}
+
+
+a {
+    text-decoration: none;
+}

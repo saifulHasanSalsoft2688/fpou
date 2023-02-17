@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap');
+
+.authBg {
+    background: url('../../../../public/images/login_bg.png');
+    background-size: cover;
+    background-position: 77%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.authBg::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background-color: #00000000;
+    z-index: 9;
+    backdrop-filter: blur(6px);
+}
+
+.authBox {
+    background-color: #fff;
+    border-radius: 0.5rem;
+    position: relative;
+    z-index: 99;
+}
+
+.authImage img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.authFormWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+/* .authForm {
+    border-radius: 0px;
+    padding: 2rem 3rem;
+    width: 100%;
+} */
+
+.authLogo {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.authLogo img {
+    width: 140px;
+    max-width: 100%;
+}
+
+.authFormHeader {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.authTitle {
+    font-size: 35px;
+    color: var(--primaryColor);
+    font-weight: 800;
+    font-family: 'Manrope', sans-serif;
+}
+
+.authPara {
+    font-size: 16px;
+    font-weight: 600;
+    color: #666;
+}
+
+.authFormHeader h3 {
+    font-size: 25px;
+}
+
+@media(max-width: 799px) {
+    .authForm {
+        padding: 1.5rem;
+    }
+}
